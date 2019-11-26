@@ -7,7 +7,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 
     <body>
 
-        <form action="page2.php" method="POST">
+        <form action="forumSansCss.php" method="POST">
             <fieldset>
                 <legend>Formulaire</legend>
                 <p><label>Nom : <input type="text" name="nom" /></label></p>
@@ -58,7 +58,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             $i=0;
             while ($ligne=$resultat->fetch()) {
                 if ($i<10) {
-                    echo '<p><label>' . htmlspecialchars $ligne->nom . '</label> : ' . htmlspecialchars $ligne->msg . '</p>' ;
+                    echo '<p><label>' . htmlspecialchars($ligne->nom) . '</label> : ' . htmlspecialchars($ligne->msg) . '</p>' ;
                 }
                 $i++;
             }

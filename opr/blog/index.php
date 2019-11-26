@@ -40,7 +40,11 @@ xmlns="http://www.w3.org/1999/xhtml">
 </html>
 
 
+
 <!-- ==================> CORRECTION <=================================================================-->
+
+<?php echo '<p></br></br>erreur car la suite c est la correction opr</p>'; ?>
+
 
 <!-- a faire la prochaine fois: -->
 <?php 
