@@ -12,6 +12,9 @@
    			<fieldset>
    				<legend>Ajouter client</legend>
 				<p><label> Nom : </label><input type="text" name="nom" /></p>
+				<p><label> Prenom : </label><input type="text" name="prenom" /></p>
+				<p><label> Date naissance : </label><input type="date" name="datenaissance" /></p>
+				<p><label> Tel : </label><input type="tel" name="tel" /></p>
 				<p> <input type="submit" value="Ajouter client" name="ajouter" /> </p>
 				<p> <input type="reset" value="Tout effacer" name="effacer" /> </p>
 			</fieldset>
@@ -37,18 +40,28 @@
         }
         $connexion->query("SET NAMES UTF8") ; 
 
-        if (isset($_POST) && !empty($_POST['nom']) ){
+        if (isset($_POST) && !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['datenaissance']) && !empty($_POST['tel']) ){
         	$nom=htmlspecialchars($_POST['nom']);
-        	$requete="INSERT INTO clientsimple VALUES (0,'$nom')";
-        	$resultat=$connexion->query($requete);
-        	$resultat->closeCursor();
+        	$prenom=htmlspecialchars($_POST['prenom']);
+        	$datenaissance=htmlspecialchars($_POST['datenaissance']);
+        	$tel=htmlspecialchars($_POST['tel']);
+
+        	if (preg_match("#^0[1-68]([-. ]?[0-9]{2}){4}$#", "$tel")) {
+        		$requete="INSERT INTO clientsimple VALUES (0,'$nom','$prenom','$datenaissance','$tel')";
+        		$resultat=$connexion->query($requete);
+        		$resultat->closeCursor();
+        	}
+        	else {
+        		echo '<p> /!\ tel incorect /!\ </p>';
+        	}
+
 
 
         }
 // afficher les noms
         elseif (isset($_POST['afficherclient'])) {
 
-        	$requete="SELECT nom,id FROM clientsimple";
+        	$requete="SELECT id,nom,prenom,datenaissance,tel FROM clientsimple";
         	$resultat=$connexion->query($requete);
         	$resultat-> setFetchMode(PDO::FETCH_OBJ);
         	$lesnom=$resultat->fetchall();
@@ -63,7 +76,8 @@
 
 		    	<?php 
 		    	foreach ($lesnom as $ligne ) {
-        			echo '<p><input type="checkbox" name="'.$ligne->id.'">Client n° '.$ligne->id.' : '.'<input type="text" name="nomClient" readonly="readonly" value="'.htmlspecialchars($ligne->nom).'"/></p>';
+		    		$phrase=strtoupper(htmlspecialchars($ligne->nom)).' '.htmlspecialchars($ligne->prenom).' né le '.$ligne->datenaissance.' joingnable sur le 0'.$ligne->tel;
+        			echo '<p><input type="checkbox" name="'.$ligne->id.'">Client n° '.$ligne->id.' : '.'<input type="text" name="nomClient" readonly="readonly" value="'.$phrase.'"/></p>';
         		}
         		?>
         				
