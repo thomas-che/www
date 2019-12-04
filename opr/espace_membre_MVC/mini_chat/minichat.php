@@ -9,8 +9,12 @@ xmlns="http://www.w3.org/1999/xhtml">
     <body>
 
         <?php 
-            echo '<p>Bonjour <strong>'.$_SESSION['pseudo'].'</strong></p>' ;
-            echo '<p>Vous voulez vous deconecter ? <a href="/opr/espace_membre/deconnexion.php">deconnection.php</a></p>';
+            echo '<p>
+                    <form action="../index.php" method="POST" >
+                        <label>Bonjour <strong>'.$_SESSION['pseudo'].'</strong></label>
+                        <input type="submit" name="deconnexion" value="deconnexion">
+                    </form>
+                  </p>';
         ?>
 
         <form action="minichat.php" method="POST">

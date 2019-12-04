@@ -9,11 +9,44 @@ function getConnect() {
 	return $connexion;
 }
 
-function checkUser($login,$password) {
-	$requete=$connexion->prepare("SELECT pass FROM membres WHERE pseudo=?");
-	$requete->execute(array($pseudo));
-	$ligne=$requete->fetch();
-	$mdp_hache=$ligne['pass'];
-	$isPasswordCorrect= password_verify($mdp, $mdp_hache );
-	return $isPasswordCorrect;
+function checkUser($pseudo,$password) {
+	$connexion=getConnect();
+	$prepare=$connexion->prepare("SELECT pass FROM membres WHERE pseudo=:pseudo");
+	$prepare->bindValue(':pseudo',$pseudo,PDO::PARAM_STR);
+	$prepare->execute();
+	$answer=$prepare->fetch();
+	$prepare->closeCursor();
+	return $answer;
+}
+
+// return le pseudo si il est deja pris
+function pseudoAvailable($pseudoTest){
+	$connexion=getConnect();
+	$prepare=$connexion->prepare("SELECT pseudo FROM membres WHERE pseudo IN ( :pseudoTest ) ");
+	$prepare->bindValue(':pseudoTest',$pseudoTest,PDO::PARAM_STR);
+	$prepare->execute();
+	$answer=$prepare->fetch();
+	$prepare->closeCursor();
+	return $answer;
+}
+
+function mailAvailable($mailTest){
+	$connexion=getConnect();
+	$prepare=$connexion->prepare("SELECT email FROM membres WHERE email IN ( :mailTest ) ");
+	$prepare->bindValue(':mailTest',$mailTest,PDO::PARAM_STR);
+	$prepare->execute();
+	$answer=$prepare->fetch();
+	$prepare->closeCursor();
+	return $answer;
+}
+
+function addUser($pseudo,$passwordHash,$mail,$date){
+	$connexion=getConnect();
+	$prepare=$connexion->prepare("INSERT INTO membres VALUES ( 0 , :pseudo , :passwordHash , :mail , :datee ) ");
+	$prepare->bindValue(':pseudo',$pseudo,PDO::PARAM_STR);
+	$prepare->bindValue(':passwordHash',$passwordHash,PDO::PARAM_STR);
+	$prepare->bindValue(':mail',$mail,PDO::PARAM_STR);
+	$prepare->bindValue(':datee',$date,PDO::PARAM_STR);
+	$prepare->execute();
+	$prepare->closeCursor();
 }
