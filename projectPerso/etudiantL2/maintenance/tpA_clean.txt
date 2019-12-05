@@ -1,0 +1,483 @@
+<span style="left: 41.8px; top: 135.833px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.801462)
+DEBUT-n° étudiant
+FIN<span style="left: 142.6px; top: 135.833px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.796511)
+DEBUT-Notes CC1
+FIN<span style="left: 70.4px; top: 176.233px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2122248
+FIN<span style="left: 70.4px; top: 216.633px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2135522
+FIN<span style="left: 335.833px; top: 216.633px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-9,5
+FIN<span style="left: 70.4px; top: 257.033px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2142091
+FIN<span style="left: 70.4px; top: 297.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2144718
+FIN<span style="left: 349.8833333333333px; top: 297.4833333333333px; font-size: 18.4px; font-family: sans-serif
+DEBUT-6
+FIN<span style="left: 70.4px; top: 337.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2145372
+FIN<span style="left: 317.033px; top: 337.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-10,25
+FIN<span style="left: 70.4px; top: 378.283px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2150351
+FIN<span style="left: 70.4px; top: 418.683px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2150569
+FIN<span style="left: 326.433px; top: 418.683px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-3,75
+FIN<span style="left: 70.4px; top: 459.083px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2151617
+FIN<span style="left: 70.4px; top: 499.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2151972
+FIN<span style="left: 349.8833333333333px; top: 499.48333333333306px; font-size: 18.4px; font-family: sans-serif
+DEBUT-6
+FIN<span style="left: 70.4px; top: 539.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2156571
+FIN<span style="left: 317.033px; top: 539.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-11,75
+FIN<span style="left: 70.4px; top: 580.317px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2157418
+FIN<span style="left: 70.4px; top: 620.717px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2157735
+FIN<span style="left: 70.4px; top: 661.117px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2160250
+FIN<span style="left: 70.4px; top: 701.517px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2160692
+FIN<span style="left: 317.033px; top: 701.517px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-15,75
+FIN<span style="left: 70.4px; top: 741.917px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2161461
+FIN<span style="left: 326.433px; top: 741.917px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-12,5
+FIN<span style="left: 70.4px; top: 782.317px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2162096
+FIN<span style="left: 335.833px; top: 782.317px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-2,5
+FIN<span style="left: 70.4px; top: 822.717px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2162428
+FIN<span style="left: 349.8833333333333px; top: 822.7166666666665px; font-size: 18.4px; font-family: sans-serif
+DEBUT-3
+FIN<span style="left: 70.4px; top: 863.167px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2162453
+FIN<span style="left: 326.433px; top: 863.167px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-10,5
+FIN<span style="left: 70.4px; top: 903.567px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2162639
+FIN<span style="left: 317.033px; top: 903.567px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-11,75
+FIN<span style="left: 70.4px; top: 943.967px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2163107
+FIN<span style="left: 70.4px; top: 984.367px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2163383
+FIN<span style="left: 335.833px; top: 984.367px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-3,5
+FIN<span style="left: 70.4px; top: 1024.77px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2163453
+FIN<span style="left: 340.483px; top: 1024.77px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-11
+FIN<span style="left: 70.4px; top: 1065.17px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2164158
+FIN<span style="left: 326.433px; top: 1065.17px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-6,25
+FIN<span style="left: 70.4px; top: 1105.6px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2164517
+FIN<span style="left: 70.4px; top: 1146px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2164895
+FIN<span style="left: 335.833px; top: 1146px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-7,5
+FIN<span style="left: 70.4px; top: 1186.4px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2165471
+FIN<span style="left: 335.833px; top: 1186.4px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-8,5
+FIN<span style="left: 70.4px; top: 1226.8px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2166073
+FIN<span style="left: 335.833px; top: 1226.8px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-7,5
+FIN<span style="left: 70.4px; top: 1267.2px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2166661
+FIN<span style="left: 326.433px; top: 1267.2px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-3,75
+FIN<span style="left: 70.4px; top: 1307.6px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2166931
+FIN<span style="left: 317.033px; top: 1307.6px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-15,25
+FIN<div class="endOfContent"></div><span style="left: 41.8px; top: 87.4333px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.801462)
+DEBUT-n° étudiant
+FIN<span style="left: 142.6px; top: 87.4333px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.796511)
+DEBUT-Notes CC1
+FIN<span style="left: 70.4px; top: 127.833px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2170918
+FIN<span style="left: 326.433px; top: 127.833px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-15,5
+FIN<span style="left: 70.4px; top: 168.233px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2171771
+FIN<span style="left: 335.833px; top: 168.233px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-8,5
+FIN<span style="left: 70.4px; top: 208.633px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2171772
+FIN<span style="left: 340.483px; top: 208.633px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-18
+FIN<span style="left: 70.4px; top: 249.033px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2172088
+FIN<span style="left: 335.833px; top: 249.033px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-2,5
+FIN<span style="left: 70.4px; top: 289.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2172278
+FIN<span style="left: 317.033px; top: 289.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-17,25
+FIN<span style="left: 70.4px; top: 329.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2172388
+FIN<span style="left: 326.433px; top: 329.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-8,25
+FIN<span style="left: 70.4px; top: 370.283px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2172771
+FIN<span style="left: 326.433px; top: 370.283px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-10,5
+FIN<span style="left: 70.4px; top: 410.683px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2173235
+FIN<span style="left: 335.833px; top: 410.683px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-4,5
+FIN<span style="left: 70.4px; top: 451.083px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2173719
+FIN<span style="left: 326.433px; top: 451.083px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-11,5
+FIN<span style="left: 70.4px; top: 491.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2174308
+FIN<span style="left: 326.433px; top: 491.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-6,25
+FIN<span style="left: 70.4px; top: 531.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2174718
+FIN<span style="left: 326.433px; top: 531.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-16,5
+FIN<span style="left: 70.4px; top: 572.317px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2174785
+FIN<span style="left: 70.4px; top: 612.717px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2174949
+FIN<span style="left: 335.833px; top: 612.717px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-7,5
+FIN<span style="left: 70.4px; top: 653.117px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2175246
+FIN<span style="left: 326.433px; top: 653.117px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-2,25
+FIN<span style="left: 70.4px; top: 693.517px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2175413
+FIN<span style="left: 70.4px; top: 733.917px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2175535
+FIN<span style="left: 326.433px; top: 733.917px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-5,75
+FIN<span style="left: 70.4px; top: 774.317px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2175884
+FIN<span style="left: 335.833px; top: 774.317px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-1,5
+FIN<span style="left: 70.4px; top: 814.717px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2176063
+FIN<span style="left: 326.433px; top: 814.717px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-4,75
+FIN<span style="left: 70.4px; top: 855.167px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2176069
+FIN<span style="left: 70.4px; top: 895.567px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2176113
+FIN<span style="left: 326.433px; top: 895.567px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-1,25
+FIN<span style="left: 70.4px; top: 935.967px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2177202
+FIN<span style="left: 70.4px; top: 976.367px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2177275
+FIN<span style="left: 349.8833333333333px; top: 976.3666666666664px; font-size: 18.4px; font-family: sans-serif
+DEBUT-6
+FIN<span style="left: 70.4px; top: 1016.77px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2180100
+FIN<span style="left: 349.8833333333333px; top: 1016.7666666666664px; font-size: 18.4px; font-family: sans-serif
+DEBUT-3
+FIN<span style="left: 70.4px; top: 1057.17px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2180293
+FIN<span style="left: 326.433px; top: 1057.17px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-1,25
+FIN<span style="left: 70.4px; top: 1097.57px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2180363
+FIN<span style="left: 340.483px; top: 1097.57px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-12
+FIN<span style="left: 70.4px; top: 1138px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2180783
+FIN<span style="left: 340.483px; top: 1138px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-14
+FIN<span style="left: 70.4px; top: 1178.4px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2180812
+FIN<span style="left: 340.483px; top: 1178.4px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-15
+FIN<span style="left: 70.4px; top: 1218.8px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2180828
+FIN<span style="left: 326.433px; top: 1218.8px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-2,25
+FIN<span style="left: 70.4px; top: 1259.2px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2180859
+FIN<span style="left: 349.8833333333333px; top: 1259.1999999999998px; font-size: 18.4px; font-family: sans-serif
+DEBUT-4
+FIN<span style="left: 70.4px; top: 1299.6px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2180969
+FIN<span style="left: 317.033px; top: 1299.6px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-12,75
+FIN<div class="endOfContent"></div><span style="left: 41.8px; top: 87.4333px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.801462)
+DEBUT-n° étudiant
+FIN<span style="left: 142.6px; top: 87.4333px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.796511)
+DEBUT-Notes CC1
+FIN<span style="left: 70.4px; top: 127.833px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2180995
+FIN<span style="left: 317.033px; top: 127.833px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-16,75
+FIN<span style="left: 70.4px; top: 168.233px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2181171
+FIN<span style="left: 349.8833333333333px; top: 168.23333333333306px; font-size: 18.4px; font-family: sans-serif
+DEBUT-3
+FIN<span style="left: 70.4px; top: 208.633px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2181273
+FIN<span style="left: 326.433px; top: 208.633px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-1,25
+FIN<span style="left: 70.4px; top: 249.033px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2181300
+FIN<span style="left: 326.433px; top: 249.033px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-5,75
+FIN<span style="left: 70.4px; top: 289.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2181560
+FIN<span style="left: 317.033px; top: 289.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-14,25
+FIN<span style="left: 70.4px; top: 329.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2181567
+FIN<span style="left: 349.8833333333333px; top: 329.88333333333316px; font-size: 18.4px; font-family: sans-serif
+DEBUT-0
+FIN<span style="left: 70.4px; top: 370.283px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2181849
+FIN<span style="left: 326.433px; top: 370.283px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-5,25
+FIN<span style="left: 70.4px; top: 410.683px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2182055
+FIN<span style="left: 349.8833333333333px; top: 410.6833333333331px; font-size: 18.4px; font-family: sans-serif
+DEBUT-3
+FIN<span style="left: 70.4px; top: 451.083px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2182216
+FIN<span style="left: 326.433px; top: 451.083px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-2,25
+FIN<span style="left: 70.4px; top: 491.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2182322
+FIN<span style="left: 317.033px; top: 491.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-14,25
+FIN<span style="left: 70.4px; top: 531.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2182365
+FIN<span style="left: 326.433px; top: 531.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-10,5
+FIN<span style="left: 70.4px; top: 572.317px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2182573
+FIN<span style="left: 326.433px; top: 572.317px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-5,75
+FIN<span style="left: 70.4px; top: 612.717px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2182576
+FIN<span style="left: 326.433px; top: 612.717px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-5,25
+FIN<span style="left: 70.4px; top: 653.117px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2182673
+FIN<span style="left: 317.033px; top: 653.117px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-16,25
+FIN<span style="left: 70.4px; top: 693.517px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2182683
+FIN<span style="left: 349.8833333333333px; top: 693.5166666666664px; font-size: 18.4px; font-family: sans-serif
+DEBUT-7
+FIN<span style="left: 70.4px; top: 733.917px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2182822
+FIN<span style="left: 326.433px; top: 733.917px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-11,5
+FIN<span style="left: 70.4px; top: 774.317px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2183171
+FIN<span style="left: 70.4px; top: 814.717px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2183504
+FIN<span style="left: 326.433px; top: 814.717px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-15,5
+FIN<span style="left: 70.4px; top: 855.167px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2183881
+FIN<span style="left: 340.483px; top: 855.167px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-17
+FIN<span style="left: 70.4px; top: 895.567px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2184043
+FIN<span style="left: 317.033px; top: 895.567px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-19,75
+FIN<span style="left: 70.4px; top: 935.967px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2184390
+FIN<span style="left: 326.433px; top: 935.967px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-8,25
+FIN<span style="left: 70.4px; top: 976.367px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2184495
+FIN<span style="left: 335.833px; top: 976.367px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-9,5
+FIN<span style="left: 70.4px; top: 1016.77px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2184527
+FIN<span style="left: 317.033px; top: 1016.77px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-14,75
+FIN<span style="left: 70.4px; top: 1057.17px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2184540
+FIN<span style="left: 70.4px; top: 1097.57px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2184633
+FIN<span style="left: 326.433px; top: 1097.57px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-4,75
+FIN<span style="left: 70.4px; top: 1138px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2184690
+FIN<span style="left: 349.8833333333333px; top: 1137.9999999999998px; font-size: 18.4px; font-family: sans-serif
+DEBUT-8
+FIN<span style="left: 70.4px; top: 1178.4px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2184730
+FIN<span style="left: 340.483px; top: 1178.4px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-16
+FIN<span style="left: 70.4px; top: 1218.8px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2184768
+FIN<span style="left: 340.483px; top: 1218.8px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-15
+FIN<span style="left: 70.4px; top: 1259.2px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2184900
+FIN<span style="left: 335.833px; top: 1259.2px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-2,5
+FIN<span style="left: 70.4px; top: 1299.6px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2184973
+FIN<span style="left: 340.483px; top: 1299.6px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-10
+FIN<div class="endOfContent"></div><span style="left: 41.8px; top: 87.4333px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.801462)
+DEBUT-n° étudiant
+FIN<span style="left: 142.6px; top: 87.4333px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.796511)
+DEBUT-Notes CC1
+FIN<span style="left: 70.4px; top: 127.833px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2185020
+FIN<span style="left: 70.4px; top: 168.233px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2185120
+FIN<span style="left: 349.8833333333333px; top: 168.23333333333306px; font-size: 18.4px; font-family: sans-serif
+DEBUT-6
+FIN<span style="left: 70.4px; top: 208.633px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2185147
+FIN<span style="left: 326.433px; top: 208.633px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-7,75
+FIN<span style="left: 70.4px; top: 249.033px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2185250
+FIN<span style="left: 349.8833333333333px; top: 249.03333333333302px; font-size: 18.4px; font-family: sans-serif
+DEBUT-5
+FIN<span style="left: 70.4px; top: 289.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2185489
+FIN<span style="left: 335.833px; top: 289.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-5,5
+FIN<span style="left: 70.4px; top: 329.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2185499
+FIN<span style="left: 326.433px; top: 329.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-0,75
+FIN<span style="left: 70.4px; top: 370.283px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2185664
+FIN<span style="left: 70.4px; top: 410.683px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2185710
+FIN<span style="left: 335.833px; top: 410.683px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-4,5
+FIN<span style="left: 70.4px; top: 451.083px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2185765
+FIN<span style="left: 326.433px; top: 451.083px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-3,25
+FIN<span style="left: 70.4px; top: 491.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2186104
+FIN<span style="left: 326.433px; top: 491.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-12,5
+FIN<span style="left: 70.4px; top: 531.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2186111
+FIN<span style="left: 335.833px; top: 531.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-2,5
+FIN<span style="left: 70.4px; top: 572.317px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2186139
+FIN<span style="left: 335.833px; top: 572.317px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-3,5
+FIN<span style="left: 70.4px; top: 612.717px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2186198
+FIN<span style="left: 326.433px; top: 612.717px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-7,25
+FIN<span style="left: 70.4px; top: 653.117px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2186200
+FIN<span style="left: 326.433px; top: 653.117px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-5,75
+FIN<span style="left: 70.4px; top: 693.517px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2186271
+FIN<span style="left: 349.8833333333333px; top: 693.5166666666664px; font-size: 18.4px; font-family: sans-serif
+DEBUT-3
+FIN<span style="left: 70.4px; top: 733.917px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2186441
+FIN<span style="left: 326.433px; top: 733.917px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-6,25
+FIN<span style="left: 70.4px; top: 774.317px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2186644
+FIN<span style="left: 70.4px; top: 814.717px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2186801
+FIN<span style="left: 70.4px; top: 855.167px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2186838
+FIN<span style="left: 335.833px; top: 855.167px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-7,5
+FIN<span style="left: 70.4px; top: 895.567px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2187136
+FIN<span style="left: 335.833px; top: 895.567px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-1,5
+FIN<span style="left: 70.4px; top: 935.967px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2187345
+FIN<span style="left: 326.433px; top: 935.967px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-1,75
+FIN<span style="left: 70.4px; top: 976.367px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2187560
+FIN<span style="left: 326.433px; top: 976.367px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-6,75
+FIN<span style="left: 70.4px; top: 1016.77px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2187761
+FIN<span style="left: 70.4px; top: 1057.17px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2188082
+FIN<span style="left: 70.4px; top: 1097.57px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2188202
+FIN<span style="left: 70.4px; top: 1138px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2188215
+FIN<span style="left: 340.483px; top: 1138px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-14
+FIN<span style="left: 70.4px; top: 1178.4px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2188221
+FIN<span style="left: 70.4px; top: 1218.8px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2188224
+FIN<span style="left: 70.4px; top: 1259.2px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2188247
+FIN<span style="left: 70.4px; top: 1299.6px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2188303
+FIN<span style="left: 326.433px; top: 1299.6px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-8,25
+FIN<div class="endOfContent"></div><span style="left: 41.8px; top: 87.4333px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.801462)
+DEBUT-n° étudiant
+FIN<span style="left: 142.6px; top: 87.4333px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.796511)
+DEBUT-Notes CC1
+FIN<span style="left: 70.4px; top: 127.833px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2188464
+FIN<span style="left: 70.4px; top: 168.233px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2197546
+FIN<span style="left: 326.433px; top: 168.233px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-4,75
+FIN<span style="left: 70.4px; top: 208.633px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2197853
+FIN<span style="left: 326.433px; top: 208.633px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.778495)
+DEBUT-7,75
+FIN<span style="left: 70.4px; top: 249.033px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2198110
+FIN<span style="left: 349.8833333333333px; top: 249.03333333333302px; font-size: 18.4px; font-family: sans-serif
+DEBUT-2
+FIN<span style="left: 70.4px; top: 289.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-2199240
+FIN<span style="left: 335.833px; top: 289.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.777093)
+DEBUT-3,5
+FIN<span style="left: 70.4px; top: 329.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.783331)
+DEBUT-9801829
+FIN<span style="left: 41.8px; top: 402.483px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.89937)
+DEBUT-Min
+FIN<span style="left: 349.8833333333333px; top: 402.4833333333332px; font-size: 18.4px; font-family: sans-serif
+DEBUT-0
+FIN<span style="left: 41.8px; top: 426.683px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.857053)
+DEBUT-Max
+FIN<span style="left: 317.033px; top: 426.683px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-19,75
+FIN<span style="left: 41.8px; top: 450.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.8924)
+DEBUT-Moy
+FIN<span style="left: 260.633px; top: 450.883px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.780832)
+DEBUT-7,890306122
+FIN<span style="left: 41.8px; top: 475.083px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.887446)
+DEBUT-Med
+FIN<span style="left: 317.033px; top: 475.083px; font-size: 18.4px; font-family: sans-serif; transform: scaleX(0.779274)
+DEBUT-6,875
+FIN<div class="endOfContent"></div>
