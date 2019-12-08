@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+ 		<head>
+   			 <meta charset="utf-8">
+   			 <!-- <link rel="stylesheet" href="style.css"> -->
+   			 <title>formulaire</title>
+       	</head>
+ 	    <body>
+			
+ 	    	<form method="post" action="traitement.php"> 
+ 	    	<fieldset>
+					<legend>Deja menbre</legend>
+	    		<p>
+	    			<label for="login">Loging :</label>
+	    			<input type="text" name="login" id="from_loging"  placeholder="saisir votre login" required/>
+	    		</p>
+	    		<p>
+	    			<label for="mot_de_passe">Mot de passe :</label>
+	    			<input type="password" name="mot_de_passe" id="from_mot_de_passe"  placeholder="saisir votre login" required/>
+	    		</p>
+	    	</fieldset>
+
+ 	    	</form>
+
+			<form method="post" action="traitement.php">
+				<fieldset>
+					<legend>Nouveau menbre</legend>
+	    		<p>
+	    			<label for="Prenom">Prenom :</label>
+	    			<input type="text" name="prenom" id="from_prenom"  placeholder="prenom" required/>
+	    		</p>
+
+
+	    		<!-- balise valide w3c : meme chaine de caractere pour for et id-->
+	    		<p>
+	    			<label for="nom">Nom :</label>
+	    			<input type="text" name="nom" id="nom"  placeholder="nom famille" required />
+	    		</p>
+
+
+	    		<p>
+	    			<label for="sexe"></label>
+	    			Masculin :<input type="radio" name="sexe" checked value="masculin" />
+	    			Feminin : <input type="radio" name="sexe" value="feminin" />
+	    		</p>
+
+	    		
+	    		<p>
+	    			Code postal
+	    			<input type="number" min="00000" max="99999" step="10" value="45000"/>
+	    		</p>
+
+	    	
+	    		<p>
+	    			<label for="profesion">profesion</label>
+	    			<input list="profesion" />
+	    			<datalist id="profesion"  >
+	    				<option value="cadre">
+	    				<option value="manuel">
+	    				<option value="sans_job">
+	    				<option value="retraite">
+	    				<option value="etudiant">
+	    			</datalist>
+	    		</p>
+
+	    	
+	    		<P>
+	    			Comment connu ?
+	    			<select name="comment_connu">
+	    				<option value="net" selected >Par le net</option>
+	    				<option value="ami"  >Par un ami</option>
+	    			</select>
+	    		</P>
+
+	    		<p>
+	    			<label for="info_complementaire">Info complementaire</label>
+	    			<textarea name="" id="from_info_complementaire" rows="2" col="50" > </textarea>
+	    		</p>
+
+	    		</fieldset>
+
+	    		<p>
+	    			<input type="submit" name="submit" value="envoyer" />
+	    			<input type="submit" name="test" value="tester" formaction="test.html" formtarget="_blank" formmethod="get" />
+	    			<input type="reset" name="effacer" value="effacer" />
+	    		</p>
+
+
+	    		
+	    	</form>	
+  	    </body>	
+</html>
