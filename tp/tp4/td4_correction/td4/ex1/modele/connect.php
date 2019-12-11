@@ -1,6 +1,6 @@
 <?php
 define("SERVEUR","localhost");
-define("USER","root");
-define("PASSWORD","");
-define("BDD","ex2");
+define("USER","tp");
+define("PASSWORD","tp");
+define("BDD","forum");
 ?>

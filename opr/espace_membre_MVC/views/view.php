@@ -11,7 +11,7 @@ function displayConnexion(){
             </p>
             <p>
                 <label for="mdp">Mot de pass :</label>
-                <input type="password" name="mdp" id="mdp" />
+                <input type="text" name="mdp" id="mdp" />
             </p>
             <p>
                 <label for="co_auto">Connexion automatique </label>
