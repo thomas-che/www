@@ -17,6 +17,9 @@ function displayConnexion(){
             <p>
                 <label for="mdp">Mot de pass :</label>
                 <input type="password" name="mdp" id="mdp" value="';
+
+// hash( mdp . heure +1 + nbpremier ) que je renvoie dans le token pour faire une session active penadant 1h ou 2h max
+// ne peux pas stocker le mdp hash, c est au broser de le faire
     if (isset($_COOKIE['password']) ) {
         $contents.=$_COOKIE['password'];
     }

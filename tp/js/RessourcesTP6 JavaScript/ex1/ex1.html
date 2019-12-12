@@ -5,5 +5,41 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   </head>
   <body>
+  	<script type="text/javascript">
+  		function calcul(){
+  			var exp=prompt("entre exp arithmetique");
+  			var res=eval(exp);
+  			res=''+exp+' = '+res;
+  			return res;
+  		}
+  		function date(){
+  			var date= new Date();
+
+  			var year=date.getFullYear();
+  			var month=date.getMonth();
+  			var day= date.getDate();
+
+  			var jour='Nous somme le '+day+'/'+month+'/'+year;
+
+  			var hours= date.getHours();
+  			var minutes= date.getMinutes();
+  			var secondes= date.getSeconds();
+
+  			var heure='Il est '+hours+':'+minutes+':'+secondes;
+
+  			return [jour,heure];
+  		}
+
+	  	var res=calcul();
+
+	  	var jour=date()[0];
+	  	var heure=date()[1];
+
+	  	document.write('<p>'+jour+'</p>');
+	  	document.write('<p>'+heure+'</p>');
+	  	document.write('<p>'+res+'</p>');
+
+	  	document.write('<a href="ex1.html">ici</a>');
+  	</script>
   </body>
 </html>

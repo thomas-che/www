@@ -6,5 +6,46 @@
 		<link rel="stylesheet" type="text/css" href="ex2.css" />
 	</head>
 	<body>
+		<script type="text/javascript">
+			
+			function euroToFranc(){
+				var euro=prompt('Entrer valeur a conv en franc');
+				var franc=eval(euro*6.25);
+				return [euro,franc];
+			}
+
+			function geometrie(){
+				var longueur=prompt('Entrer une longueur du carre');
+				var perimetre=eval(longueur*4);
+				var aire=eval(longueur**2);
+				return [longueur,perimetre,aire];
+			}
+
+			var euroToFranc=euroToFranc();
+			var euro=euroToFranc[0];
+			var franc=euroToFranc[1];
+
+			document.write('<table id="tab"><caption>Euro conv Franc</caption>');
+			document.write('<tr><th>euro</th><th>franc</th></tr>');
+			document.write('<tr><td>'+euro+'</td><td>'+franc+'</td></tr>');
+			document.write('</table></br></br>');
+
+
+			var geometrie=geometrie();
+			var longueur=geometrie[0];
+			var perimetre=geometrie[1];
+			var aire=geometrie[2];
+
+			document.write('<table id="tab"><caption>Geometrie</caption>');
+			document.write('<tr><th>longueur</th><th>perimetre</th><th>aire</th></tr>');
+			document.write('<tr><td>'+longueur+'</td><td>'+perimetre+'</td><td>'+aire+'</td></tr>');
+			document.write('</table>');
+
+
+			document.write('<a href="ex2.html">RECOMENCER</a>');
+
+
+		</script>
+
 	</body>
 </html>

@@ -4,7 +4,73 @@
 		<title>Ex3</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" type="text/css" href="ex3.css" />
+
+		<script type="text/javascript" src="ex3.js" ></script>
+
 	</head>
 	<body>
+
+		
+
+		
+
+		<form class="case" id="case" name="case" action="" method="POST">
+			<fieldset>
+				<legend>Mise en majuscule</legend>
+				<p>
+					<label>Text en minuscule</label>
+					<input type="text" name="lowerCase" id="lowerCase">
+				</p>
+				<p>
+					<label>Text en MAJUSCULE</label>
+					<input type="text" name="upperCase" id="upperCase">
+				</p>
+				<button type="button" name="toUpper" onclick="toUpperFnc()" > ==> </button>
+				<button type="reset" name="reset" >effacer</button>
+			</fieldset>
+		</form>
+
+		<form class="prix" id="prix" name="prix" action="" method="POST">
+			<fieldset>
+				<legend>Prix TTC</legend>
+				<p>
+					<label>Prix hors taxes</label>
+					<input type="text" name="prisHT" id="prisHT">
+				</p>
+				<p>
+					<label>Prix TTC</label>
+					<input type="text" name="prixTTC" id="prixTTC">
+				</p>
+				<button type="button" name="toUpper" onclick="prixTTCFnc()" > ==> </button>
+				<button type="reset" name="reset" >effacer</button>
+			</fieldset>
+		</form>
+		
+		<form class="moyenne" id="moyenne" name="moyenne" action="" method="POST">
+			<fieldset>
+				<legend>Moyenne</legend>
+				<p>
+					<label>Note DS1 </label>
+					<input type="text" name="noteDS1" id="noteDS1">
+				</p>
+				<p>
+					<label>Note DS2 </label>
+					<input type="text" name="noteDS2" id="noteDS2">
+				</p>
+				<p>
+					<label>Note DS3 </label>
+					<input type="text" name="noteDS1" id="noteDS3">
+				</p>
+				<p>
+					<label>Moyenne</label>
+					<input type="text" name="moyenne" id="moyenne">
+				</p>
+				<button type="button" name="toUpper" onclick="moyenneFnc()" > ==> </button>
+				<button type="reset" name="reset" >effacer</button>
+			</fieldset>
+		</form>
+		
+
+		
 	</body>
 </html>
