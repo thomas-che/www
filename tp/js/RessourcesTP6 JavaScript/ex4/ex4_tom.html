@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+  <head>
+  <title>Ex4</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script type="text/javascript">
+	function verification(){
+		r=document.forms['monform'].elements['resultat'].value
+		if (isNaN(r)){
+			alert('Format incorrect');
+		}
+		else if (parseInt(a)*parseInt(b)!=parseInt(r)){
+			document.getElementById('resultat').style.backgroundColor='red';
+			alert('Résultat incorrect');
+			document.getElementById('resultat').value='';
+			document.getElementById('resultat').focus();
+		}
+		else {
+			alert('Bon résultat');
+			document.location.href="ex4.html";
+		}
+	}
+  </script>
+  </head>
+  <body>
+	  <p>
+		<form id="monform">
+			<script type="text/javascript">
+				a=Math.floor(Math.random()*9)+1;
+				b=Math.floor(Math.random()*9)+1;
+				document.write(a+'x'+b+'=');
+			</script>
+			<input type="text" name="resultat" id="resultat"/>
+			<input type="button" value="Vérifier" onClick="verification()">
+		</form>
+	  </p>
+  </body>
+</html>

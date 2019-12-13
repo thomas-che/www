@@ -3,7 +3,20 @@
   <head>
   <title>Ex4</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script type="text/javascript" src="ex4.js" ></script>
   </head>
   <body>
+
+  	<form name="calcul" >
+		<script type="text/javascript">
+			nb1=Math.floor(Math.random()*9)+1;
+			nb2=Math.floor(Math.random()*9)+1;
+			document.write(nb1+' x '+nb2+' = ');
+		</script>
+  		<input type="text" name="inputtxt" >
+  		<button name="verifier" onclick="verifierFnc()">verifier</button>
+  	</form>
+  	
+
   </body>
 </html>
