@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"><head>
+  <title>Ma première page</title>
+
+  
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  
+  <link rel="stylesheet" type="text/css" href="ex2.css" />
+
+</head><body>
+<script language="JavaScript">
+    
+    // franc -> euro
+    
+    var euros;
+euros=prompt('Valeur en euros : ');
+var francs=euros*6.56;
+document.write('Valeur en euros : '+euros+'<br/> Valeur en francs '+francs);
+
+  
+    // calcul 
+    
+var cote;
+cote=prompt('Côté du carré : ');
+var perim=4*cote;
+var aire=cote*cote;
+</script>
+<table id="tab">
+
+  <colgroup> <col id="navcol" span="1" /> <col id="numcol" span="1" />
+  </colgroup><tbody>
+    <tr>
+      <th> Longueure </th>
+      <th> Perimetre </th>
+      <th> aire </th>
+    </tr>
+   
+ <script language="JavaScript">
+document.write(' <tr> <td> '+cote+'</td>');
+document.write('<td>'+perim+'</td>');
+document.write('<td>'+aire+'</td> </tr>');
+    </script>
+
+  
+</table>
+
+</body></html>

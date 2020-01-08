@@ -1,0 +1,56 @@
+    <html>
+    <!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" 
+		
+	<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr" 
+		
+    <head>
+    <title>Ma première page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ 		<link rel="stylesheet" type="text/css" href="ex7.css" />
+    </head>
+
+   <body>
+  
+<table id="tab">
+<caption>Jeux du 21 </caption>
+    
+    <colgroup>
+
+    	<col span="2" id="navcol" />
+        <col span="1" id="numcol" />
+    </colgroup>
+
+<tr><Th>Joueur 1</th>
+<th>Joueur 2</th>
+<th> Total </th>
+</tr>
+
+  <script type="text/javascript" >
+var total=0;
+var joueur=1;
+var de=0;
+while (total<21) {
+ de=1+Math.floor(Math.random()*6);
+ total+=de;
+ document.write("<tr><td>");
+ if (joueur==1) 
+  document.writeln(de+"</td><td></td>");
+ else 
+  document.writeln("</td><td>"+de+"</td>");
+  
+ document.writeln("<td>",total,"</td></tr>");
+ joueur=3-joueur;
+}
+</script>
+</table>
+
+
+  <script type="text/javascript" >
+joueur=3-joueur;
+alert("Le joueur "+joueur+" a gagné !");
+</script>
+
+<p><a HREF="ex7.html">Rejouer</a> </p>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"><head>
+  <title>Ma première page</title>
+
+	
+    
+    <link rel="stylesheet" type="text/css" href="impot.css" />
+    <title>Ma première page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<script>
+
+function ajouter(){
+	
+	var chaine='<form>';
+	for (i=1; i<=document.forms['monForm'].elements['nbenf'].value;i++) {
+		chaine=chaine+ '<p><label for="firstname'+i+'">Enfant'+i+' : </label><input type="text" name="firstname'+i+'" id="firstname'+i+'" /></p>';
+	}
+	document.getElementById('ajouter').innerHTML=chaine;
+	
+}
+</script>
+
+
+    </head>
+
+<body>
+<form id="monForm" action="#" method="post" >
+    <fieldset>
+
+        <legend>Informations personnelles</legend>
+        <p>
+            <label for="firstname">Nom : </label>
+            <input type="text" name="firstname" id="firstname"/>
+        </p>
+        <p>
+            <label for="lastname">Prénom  : </label>
+
+            <input type="text"  name="lastname" />
+        </p>
+        <p>
+            <label for="nbenf">Nb enfant : </label>
+            <input type="text"  name="nbenf" onblur="ajouter();"/>
+		</p>
+		<div id="ajouter">   </div>
+        <p>
+            <label for="prof">Profession : </label>
+            <input type="text"  name="prof" />
+		</p>
+		
+		<p>
+		   
+		        <label class="form_label_nostyle">&nbsp;</label>
+		        <input type="button" value="Ok" name="ok"  />
+		        <input type="reset" name="del" />
+    
+    </p>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+    <html>
+    <!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" 
+		
+	<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr" 
+		
+    <head>
+    <title>Ma première page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    </head>
+
+    <body>
+    <h1>Une calculatrice  </h1>
+    <hr>
+    <script>
+    
+    // affichage des date 
+    
+    var maintenant=new Date();
+document.write("Nous sommes le "+maintenant.getDate()+"/"+(maintenant.getMonth()+1)+"/"+
+   maintenant.getFullYear()+".<BR>");
+document.write("Il est "+maintenant.getHours()+"h "+maintenant.getMinutes()+"mn "+
+   maintenant.getSeconds()+"s.<BR>");
+
+    // calcul 
+    
+var expr;
+expr=prompt("Entrer un calcul :","");
+document.write(expr," = ",eval(expr)+"<BR>");
+</script>
+<P><BR></P>
+<A HREF="ex1.html">Nouveau calcul...</A>
+
+    
+        </body>
+    </html>
+

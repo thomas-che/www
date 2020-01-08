@@ -1,0 +1,44 @@
+    <html>
+    <!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" 
+		
+	<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr" 
+		
+    <head>
+    <title>Ma première page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ 		<link rel="stylesheet" type="text/css" href="ex6.css" />
+ 		    <script type="text/javascript" src="fichier.js"></script>
+    </head>
+
+   <body>
+  
+
+
+
+<script type="text/javascript">
+var facteur=prompt("Entrer un nombre entier.");
+var rep;
+</script>
+
+<table id="tab">
+<caption>Table de multiplication </caption>
+    
+    <colgroup>
+
+    	<col span="2" id="navcol" />
+        <col span="1" id="numcol" />
+    </colgroup>
+     <tr> <th>Votre nombre </th> <th>Indice </th> <th> Resultat </th> </tr>
+
+<script type="text/javascript">
+for (i=1; i<=10; i++) {
+ rep=facteur*i;
+ document.writeln("<tr><td>"+facteur+"</td>"+"<td>"+i+"</td> " + "<td>"+rep+"</td></tr>");
+}
+
+</script>
+</table>
+
+<p><a href="ex6.html">Rejouer </a></p>
+</body>
+</html>

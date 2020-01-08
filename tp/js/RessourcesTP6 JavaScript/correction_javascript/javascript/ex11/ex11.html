@@ -1,0 +1,85 @@
+    <html>
+    <!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" 
+		
+	<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr" 
+		
+    <head>
+    <title>Ma première page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ 		<link rel="stylesheet" type="text/css" href="ex8.css" />
+
+<SCRIPT LANGUAGE="JavaScript">
+ var prix=0;
+ var txt="";
+
+
+ function ajoute(choix) {
+  var pos=choix.selectedIndex;
+  var pr=choix[pos].value;
+  prix+=eval(pr);
+  
+   
+  return(pr)
+ }
+
+ function calcul(f) {
+  prix=0;
+  document.forms[f].e.value=ajoute(document.forms[f].p1);
+  document.forms[f].p.value=ajoute(document.forms[f].p2);
+  document.forms[f].d.value=ajoute(document.forms[f].p3);
+  
+  document.formu.t.value=prix;
+ }
+
+ </SCRIPT>
+
+
+
+    </head>
+
+  
+  <body> <H1>Composez votre menu</H1><HR>
+<P>Choisissez une entrée, un plat et un dessert, puis appuyez sur le bouton "Envoi".</P>
+<FORM id="formu">
+  <P>Entrée
+  <SELECT NAME="p1">
+  <OPTION VALUE="12.50" SELECTED>Crudités</OPTION>
+  <OPTION VALUE="18.00">Pâté en croute</OPTION>
+  <OPTION VALUE="09.50">Oeufs Mayo</OPTION>
+  <OPTION VALUE="24.75">Avocats</OPTION>
+
+  </SELECT>
+ 
+  Plat principal
+  <SELECT NAME="p2">
+  <OPTION VALUE="30.00" SELECTED>Steak-Frites</OPTION>
+  <OPTION VALUE="27.50">Choucroute</OPTION>
+
+  <OPTION VALUE="32.50">Cassoulet</OPTION>
+  <OPTION VALUE="37.00">Couscous</OPTION>
+  </SELECT>
+  Dessert
+  <SELECT NAME="p3">
+
+  <OPTION VALUE="12.50" SELECTED>Yaourt</OPTION>
+  <OPTION VALUE="10.00">Fruits</OPTION>
+  <OPTION VALUE="16.50">Glace</OPTION>
+  <OPTION VALUE="19.75">Tartelette</OPTION>
+  </SELECT>
+  </p>
+ <p>
+  <INPUT TYPE="button" VALUE=" Envoi " ONCLICK="calcul('formu');"></p>
+
+<p>  
+ Entrée :  <INPUT TYPE="text" name = "e" > 
+ Plat : <INPUT TYPE="text" name = "p" >
+ Dessert <INPUT TYPE="text" name = "d" >
+ Total <INPUT TYPE="text" name = "t" >
+ 
+  
+
+</p>
+</FORM> 
+</body>
+</html>

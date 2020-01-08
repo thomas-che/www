@@ -1,0 +1,93 @@
+    <html>
+    <!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" 
+		
+	<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr" 
+		
+    <head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        		<link rel="stylesheet" type="text/css" href="ex3.css" />
+   <script type="text/javascript" src="fichier.js"></script>
+
+
+
+    </head>
+
+   <body>
+
+
+<FORM id="monForm">
+ <fieldset>
+
+        <legend>Mise en majuscules </legend>
+
+<p>
+<label>  Texte minuscule </label>
+<INPUT NAME="expr" TYPE="text" >
+</p>
+
+<p>
+<label>  Texte en majuscule </label> <INPUT NAME="reponse" TYPE="text" > 
+</p>
+<p>
+<label class="form_label_nostyle"> &nbsp; </label>
+<INPUT TYPE="button" VALUE=" => " onClick="transforme('monForm','expr','reponse')">
+<input type="reset" name="del" />
+
+</p>
+</fieldset> 
+
+<!-- prix TVA -->
+
+
+
+
+<fieldset> 
+<legend> prix TTC </legend>
+
+<p>
+<label> 
+ Prix Hors Taxe : </label>
+<INPUT NAME="pht" TYPE="text" ></p>
+
+<p>
+<label> Prix TTC : </label> 
+<INPUT NAME="pttc" TYPE="text" ></p>
+
+<p><label class="form_label_nostyle"> &nbsp; </label>
+<INPUT TYPE="button" VALUE="Calculer" ONCLICK="calcul('monForm','pht','pttc')">
+<input type="reset" name="del" />
+</p>
+</fieldset>
+
+
+<fieldset>
+
+<legend> Calcul moyenne </legend>
+<p> <label> Note du DS1 : </label><INPUT NAME="ds1" TYPE="text" SIZE="10">
+</p>
+<p><label>Note du DS2 : </label> <INPUT NAME="ds2" TYPE="text" SIZE="10">
+</p>
+<p>
+<label>Note du DS3 :</label> <INPUT NAME="ds3" TYPE="text" SIZE="10">
+</p>
+
+<p>
+<label> 
+Moyenne obtenue : </label>
+<INPUT NAME="moy" TYPE="text" SIZE="10">
+</p>
+
+<p>
+<label class="form_label_nostyle"> &nbsp; </label> 
+<INPUT TYPE="button" VALUE="Calculer" ONCLICK="calcul_moy('monForm','ds1','ds2','ds3','moy')">
+<input type="reset" name="del" />
+</p>
+</fieldset> 
+</FORM>
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+    <html>
+    <!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" 
+		
+	<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr" 
+		
+    <head>
+    <title>Ma première page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ 		<link rel="stylesheet" type="text/css" href="ex8.css" />
+ 		<script type="text/javascript" src="fichier.js"></script>
+
+ 		    </head>
+
+  
+  <body>
+<h1>Loto</h1>
+<hr/>
+<script type="text/javascript">
+var tablo=new Array(6);
+for (var i=0; i<6; i++) {
+ do {
+  tablo[i]=1+Math.floor(Math.random()*49);
+  var ok=true;
+  for (var j=0; j<i; j++) 
+   {if (tablo[j]==tablo[i]) ok=false;}
+   if (ok) document.write(' '+tablo[i]+' ');
+ } while (!ok);
+}
+</script>
+<hr/>
+<a href="ex9.html">Autre tirage...</a>
+</body>
+</html>

@@ -1,0 +1,50 @@
+  <html>
+    <!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" 
+		
+	<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr" 
+		<link rel="stylesheet" type="text/css" href="ex4.css" />
+    <head>
+    <title>Ma première page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<script>
+
+function suivant(enCours,suivant, limite)
+  {
+  if (enCours.value.length == limite)
+      monForm.elements[suivant].focus();
+  }
+
+</script>
+
+    </head>
+
+<body>
+<form id="monForm" action="#" method="post" >
+    <fieldset>
+
+        <legend>Login de session</legend>
+        <p>
+            <label for="form_firstname">Login : </label>
+            <input type="text" size="6" maxlength="6" name="firstname" onKeyUp="if (this.value.length==6) {lastname.focus();} "  />
+        </p>
+        <p>
+            <label for="form_lastname">Mot de passe  : </label>
+
+            <input type="text"  name="lastname" size="6" maxlength="6" onKeyUp="suivant( this, 'date', 6)" />
+        </p>
+        <p>
+            <label for="form_gender">Date de naissance : </label>
+            <input type="text"  name="date" onKeyUp="suivant( this, 'ok', 4)"/>
+        </p>
+          
+    <p>
+        <label class="form_label_nostyle">&nbsp;</label>
+        <input type="button" value="Ok" name="ok"  />
+        <input type="reset" name="del" />
+    </p>
+</form>
+
+</body>
+</html>
