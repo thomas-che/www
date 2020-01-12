@@ -9,10 +9,7 @@ try {
 	else {
 		ctlDisplayArticle();
 	}
-
-		 
-}
-	
+}	
 catch (Exception $e) {
 	$errorMessage = $e->getMessage();
 	ctlError($errorMessage);

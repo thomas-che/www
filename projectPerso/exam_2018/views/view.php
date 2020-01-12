@@ -1,11 +1,11 @@
 <?php
 
 function displayArticle($listAllArticle){
-	$contents='<form action="index.php" method="POST" ><table>
+	$contents='<form action="index.php" method="POST" name="f" id="f" ><table>
 				<tr><th>Titre</th><th>Prix</th><th>Stock</th><th>validation</th></tr>';
 	foreach ($listAllArticle as $line){
 		if (0<$line->stock){
-			$contents.='<tr><td>'.$line->titre.'</td><td>'.$line->prix.'</td><td>'.$line->stock.'</td><td><input type="checkbox" name="'.$line->id.'" ></td></tr>';
+			$contents.='<tr><td>'.$line->titre.'</td><td>'.$line->prix.'</td><td>'.$line->stock.'</td><td><input type="checkbox" name="'.$line->id.'" id="'.$line->id.'" ></td></tr>';
 		}
 		else{
 			$contents.='<tr class="zeroStock" ><td>'.$line->titre.'</td><td>'.$line->prix.'</td><td>'.$line->stock.'</td><td> </td></tr>';
@@ -13,7 +13,7 @@ function displayArticle($listAllArticle){
 		
 	}
 	$contents.='</table>
-	<input type="submit" name="valider" value="valider la comande" ></form>';
+	<input type="submit" name="valider" value="valider la comande" onClick="calc(\'f\')"></form>';
 	require_once('gabarit.php');
 }
 
