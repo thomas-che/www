@@ -1,28 +1,54 @@
-var newLink = document.createElement('a');
-var newLinkText = document.createTextNode("Le Site du Zéro");
+var mainDiv = document.createElement('div');
+mainDiv.id = 'divTp3';
 
-newLink.id = 'sdz_link';
-newLink.href = 'http://www.siteduzero.com';
-newLink.title = 'Découvrez le Site du Zéro !';
-newLink.setAttribute('tabindex', '10');
+var tab = [ document.createTextNode('Langages basés sur ECMAScript :'),
+			document.createTextNode('JavaScript'),
+			document.createTextNode('JavaScript est un langage de programmation de scripts principalement utilisé dans les pages web interactives mais aussi coté serveur.'),
+			document.createTextNode('JScript est le nom générique de plusieurs implémentations d\'ECMAScript 3 créées par Microsoft.'),
+			document.createTextNode('ActionScript'),
+			document.createTextNode('ActionScript est le langage de programmation utilisé au sein d\'applications clientes (Adobe Flash, Adobe Flex) et serveur (Flash media server, JRun, Macromedia Generator).'),
+			document.createTextNode('EX4'),
+			document.createTextNode('ECMAScript for XML (E4X) est une extension XML au langage ECMAScript.'),
+			];
 
-newLink.appendChild(newLinkText);
-document.getElementById('myP').appendChild(newLink);
+var p = document.createElement('p');
 
-// On va cloner un élément créé :
-var hr1 = document.createElement('hr');
-var hr2 = document.createElement('hr').cloneNode(false); // Il n'a pas d'enfants…
+var	dl = document.createElement('dl');
+var	dt1 = document.createElement('dt');
+var	dt2 = document.createElement('dt');
+var	dt3 = document.createElement('dt');
+var	dt4 = document.createElement('dt');
+var	dd1 = document.createElement('dd');
+var	dd2 = document.createElement('dd');
+var	dd3 = document.createElement('dd');
+var	dd4 = document.createElement('dd');
 
-// Ici, on clone un élément existant :
-var paragraph1 = ;
-var paragraph2 = document.getElementById('myP').cloneNode(true);
+p.appendChild(tab[0]);
+dl.appendChild(p);
 
-// Et attention, l'élément est cloné, mais pas « inséré » tant que l'on n'a pas appelé appendChild() :
-paragraph1.parentNode.appendChild(paragraph2);
+dt1.appendChild(tab[1]);
+dl.appendChild(dt1);
+dd1.appendChild(tab[2]);
+dl.appendChild(dd1);
 
-var link = document.querySelector('a');
-var newLabel = document.createTextNode('et un hyperlien');
-link.replaceChild(newLabel, link.firstChild);
+dt2.appendChild(tab[1]);
+dl.appendChild(dt2);
+dd2.appendChild(tab[3]);
+dl.appendChild(dd2);
 
-var paragraph = document.querySelector('p');
-alert(paragraph.hasChildNodes()); // Affiche true
+
+dt3.appendChild(tab[4]);
+dl.appendChild(dt3);
+dd3.appendChild(tab[5]);
+dl.appendChild(dd2);
+
+
+dt4.appendChild(tab[6]);
+dl.appendChild(dt4);
+dd4.appendChild(tab[7]);
+dl.appendChild(dd4);
+
+
+mainDiv.appendChild(dl);
+
+document.body.appendChild(mainDiv);
