@@ -1,0 +1,389 @@
+<!DOCTYPE html> 
+<html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="CHEVALIER Thomas">
+		<!-- Bootstrap CSS web-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<!-- Bootstrap CSS local-->
+		<!-- <link rel="stylesheet" href="views/style/bootstrap-4.1.3/css/bootstrap.min.css"> -->
+
+		<link rel="stylesheet" href="views/style/style_home.css"/>
+		<link rel="stylesheet" href="views/style/fixed.css">
+		<script type="text/javascript" src="static/js/index.js" ></script>
+
+		<link rel="icon" type="image/x-icon" href="favicon.png" />
+		
+        <title>fiche pedago secretaire</title>
+        <style>
+            body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.navbar{
+    background-color: rgb(43, 43, 43) !important;
+}
+        </style>
+	</head>
+
+	<body class="text-center">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="index.html"><img width="50" height="50" src="logo_bl.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">  Accueil  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">  Fiche pédagogique   &nbsp;<i class="far fa-address-card"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">  Fiche validé   &nbsp;<i class="fas fa-clipboard-check"></i></a>
+                </li>
+               
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <ul class="navbar-nav mr-auto" >
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="margin-right: 8px;">  Mon compte  &nbsp;<i class="fas fa-user"></i></a>
+                    </li>
+                   
+                  </ul>
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Deconnexion &nbsp;<i class="fas fa-sign-out-alt"></i></button>
+              </form>
+            </div>
+          </nav>
+          <nav style="margin-top: -4px; " aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Secretaire</a></li>
+              <li class="breadcrumb-item"><a href="#">Fiche pédagogique</a></li>
+              <li class="breadcrumb-item active" aria-current="page">2180123</li>
+            </ol>
+          </nav>
+      
+          <main role="main" class="container">
+      
+            <div class="starter-template text-left">
+                <div class="py-5 text-left">
+                    <h2>Fiche pédagogique du : 2180123</h2></br>
+                  </div>
+                <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                      <div class="col-md-4 mb-3">
+                        <label for="validationCustom01">Nom</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="DOE" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationCustom02">Prénom</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="John" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationCustom02">Numero étudiant</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="2180123" required>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationCustom02">Date de naissance</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="01/01/2000" required>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationCustomUsername">Email perso</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                          </div>
+                          <input type="text" class="form-control" id="validationCustomUsername" value="JohnDoe@gmail.com" aria-describedby="inputGroupPrepend" required>
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationCustomUsername">Email univ</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                          </div>
+                          <input type="text" class="form-control" id="validationCustomUsername" value="john.doe1@etu.univ-orleans.fr" aria-describedby="inputGroupPrepend" required>
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationCustom03">Adresse</label>
+                        <input type="text" class="form-control" id="validationCustom03" value="135 Rue du Faubourg Bourgogne" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid city.
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationCustom04">Ville</label>
+                        <input type="text" class="form-control" id="validationCustom04" value="Orléans" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid state.
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationCustom05">Code postale</label>
+                        <input type="text" class="form-control" id="validationCustom05" value="45000" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid zip.
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-12 mb-12">
+                        <label for="validationCustom03">Adresse permettant de vous recontacter dans les années à venir -ex : parents</label>
+                        <input type="text" class="form-control" id="validationCustom03" value="10 Rue Honoré de Balzac, Vendôme, 411000" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid city.
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="form-group">
+                     
+                    </div>
+
+                    <div class="text-left">
+                        <label style="margin-bottom: 0px;" for="validationCustom05">Prévoyez vous de demander le  &ensp;</label>
+                        <div style="display: inline; margin-left: 10px;">
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="radio1">
+                                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" >oui
+                                </label>
+                              </div>
+                              <div class="form-check-inline">
+                                <label class="form-check-label" for="radio2">
+                                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2" checked>non
+                                </label>
+                              </div>
+                            </div>
+                            
+                          <p style="margin-top: -6px;">Régime Spécial Etudiant :</p>
+                    </div>
+                    <div class="text-left" style="margin-top: 8px;">
+                        <label style="margin-bottom: 0px;" for="validationCustom05">Si OUI précisez le type de  &ensp;</label>
+                        <div style="display: inline; margin-left: 47px;">
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="radio1">
+                                  <input type="radio" class="form-check-input" id="radio1" name="optradio1" value="option1" >terminal uniquement
+                                </label>
+                              </div>
+                              <div class="form-check-inline">
+                                <label class="form-check-label" for="radio2">
+                                  <input type="radio" class="form-check-input" id="radio2" name="optradio1" value="option2">autre
+                                </label>
+                              </div>
+                        </div>
+                            
+                          
+                          <p style="margin-top: -6px;">contrôle :</p>
+                    </div>
+                    <div class="text-left" style="margin-top: 8px;">
+                        <label for="validationCustom05">Redoublant L3 ou ajac L2/L3 : &ensp;</label>
+                        <div style="display: inline; margin-left: 17px;">
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="radio1">
+                                  <input type="radio" class="form-check-input" id="radio1" name="optradio2" value="option1" checked>oui
+                                </label>
+                              </div>
+                              <div class="form-check-inline">
+                                <label class="form-check-label" for="radio2">
+                                  <input type="radio" class="form-check-input" id="radio2" name="optradio2" value="option2">non
+                                </label>
+                              </div>
+                        </div>
+                            
+                    </div>
+                    <div class="text-left" style="margin-top: 8px;">
+                        <label for="validationCustom05">Semestre(s) déjà obtenu(s) : &ensp;</label>
+                        <div style="display: inline; margin-left: 28px;">
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check1">
+                                  <input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="something" >s3
+                                </label>
+                              </div>
+                              <div class="form-check-inline">
+                                <label class="form-check-label" for="check2">
+                                  <input type="checkbox" class="form-check-input" id="check2" name="vehicle2" value="something" checked>s4
+                                </label>
+                              </div>
+                              <div class="form-check-inline">
+                                <label class="form-check-label" for="check2">
+                                  <input type="checkbox" class="form-check-input" id="check2" name="vehicle2" value="something">s5
+                                </label>
+                              </div><div class="form-check-inline">
+                                <label class="form-check-label" for="check2">
+                                  <input type="checkbox" class="form-check-input" id="check2" name="vehicle2" value="something">s6
+                                </label>
+                              </div>
+                        </div>
+                        
+                    </div>
+                    <div class="text-left" style="margin-top: 8px;">
+                        <label for="validationCustom05">Demande de 1/3 temps : &ensp;</label>
+                        <div style="display: inline; margin-left: 56px;">
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="radio1">
+                                  <input type="radio" class="form-check-input" id="radio1" name="optradio3" value="option1" >oui
+                                </label>
+                              </div>
+                              <div class="form-check-inline">
+                                <label class="form-check-label" for="radio2">
+                                  <input type="radio" class="form-check-input" id="radio2" name="optradio3" value="option2" checked>non
+                                </label>
+                              </div>
+                        </div>
+                            
+                    </div>
+
+                    <table style="margin-top: 16px;"" class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Code apogee</th>
+                            <th scope="col">Type obl/opt</th>
+                            <th scope="col">Libelle court</th>
+                            <th scope="col">Inscription 2021/2022</th>
+                            <th scope="col">Validé / Note</th>
+                            <th scope="col">ECTS</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th>SLA5IF03</th>
+                            <td>OBL</td>
+                            <td>Mise à niveau</td>
+                            <td class="text-center"><input type="checkbox" class="form-check-input" checked></td>
+                            <td><input type="text" class="form-text-input" ></td>
+                            <td>0</td>
+                          </tr>
+                          <tr>
+                            <th>SLA5MT01</th>
+                            <td>OBL</td>
+                            <td>Statistique</td>
+                            <td class="text-center"><input type="checkbox" class="form-check-input" checked ></td>
+                            <td><input type="text" class="form-text-input" ></td>
+                            <td>3</td>
+                          </tr>
+                          <tr>
+                            <th>SLA5AG11</th>
+                            <td>OBL</td>
+                            <td>Système d'information</td>
+                            <td class="text-center"><input type="checkbox" class="form-check-input" checked ></td>
+                            <td><input type="text" class="form-text-input" ></td>
+                            <td>4</td>
+                          </tr>
+                          <tr>
+                            <th>SLA5IF04</th>
+                            <td>OBL</td>
+                            <td>Programmation avancée</td>
+                            <td class="text-center"><input type="checkbox" class="form-check-input" checked ></td>
+                            <td><input type="text" class="form-text-input" ></td>
+                            <td>5</td>
+                          </tr>
+                          <tr>
+                            <th>SLA5IF01</th>
+                            <td>OBL</td>
+                            <td>Réseaux</td>
+                            <td class="text-center"><input type="checkbox" class="form-check-input" checked ></td>
+                            <td><input type="text" class="form-text-input" ></td>
+                            <td>5</td>
+                          </tr>
+                          <tr>
+                            <th>SLA5SE01</th>
+                            <td>OBL</td>
+                            <td>Gestion comptable</td>
+                            <td class="text-center"><input type="checkbox" class="form-check-input" checked ></td>
+                            <td><input type="text" class="form-text-input" ></td>
+                            <td>3</td>
+                          </tr>
+                          <tr>
+                            <th>SLA5AG10</th>
+                            <td>OBL</td>
+                            <td>Tech. de communication</td>
+                            <td class="text-center"><input type="checkbox" class="form-check-input" checked ></td>
+                            <td><input type="text" class="form-text-input" ></td>
+                            <td>3</td>
+                          </tr>
+                          <tr>
+                            <th>SLA5IFAG</th>
+                            <td>OBL</td>
+                            <td>Anglais</td>
+                            <td class="text-center"><input type="checkbox" class="form-check-input" checked ></td>
+                            <td><input type="text" class="form-text-input" ></td>
+                            <td>3</td>
+                          </tr>
+                          <tr>
+                            <th>SLA5IF05</th>
+                            <td>OBL</td>
+                            <td>Projet informatique</td>
+                            <td class="text-center"><input type="checkbox" class="form-check-input" checked ></td>
+                            <td><input type="text" class="form-text-input" ></td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <th>SLA5PP01</th>
+                            <td>OBL</td>
+                            <td>Projet professionel</td>
+                            <td class="text-center"><input type="checkbox" class="form-check-input" checked ></td>
+                            <td><input type="text" class="form-text-input" ></td>
+                            <td>2</td>
+                          </tr>
+    
+                        </tbody>
+                      </table>
+                    
+                    <div style="margin-top: 40px; " class="text-left"> 
+                        <label class="form-check-label text-left" for="check2"><h4>Remarque sur la fiche : </h4></label>
+                        <textarea style="margin-top: 5px; " class="form-control" rows="3" id="comment" name="text">Vous n'avez pas selectionné le bon semestre que vous avez obtenu l'année dernière en L3, c'était le semestre 3 que vous avez validé et non le 4.</textarea>
+                    </div>
+                    <div style="margin-top: 30px;"  class="text-center">
+
+                        <button class="btn btn-success" type="submit">Valider</button>
+                        <button style="margin-left: 30px;" class="btn btn-danger" type="submit">Rejeter</button>
+                    </div>
+                    
+                  </form>
+                
+
+
+
+            </div>
+          </main>
+	
+
+
+
+
+
+
+		<!--- Script web -->
+		<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+	</body>
+</html>
